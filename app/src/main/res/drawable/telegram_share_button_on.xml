@@ -1,0 +1,18 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Фон -->
+    <item
+        android:width="390dp"
+        android:height="390dp"
+        android:gravity="center">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/button_pressed_color" />
+            <corners android:radius="30dp" />
+        </shape>
+    </item>
+    <!-- Изображение -->
+    <item
+        android:drawable="@drawable/telegramm_icon"
+        android:gravity="center"
+        android:padding="5dp">
+    </item>
+</layer-list>

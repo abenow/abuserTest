@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:background="@drawable/radio_group_background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <TextView
+        android:layout_weight="0.8"
+        android:padding="8dip"
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="textView"
+        android:textColor="#000000"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <LinearLayout
+
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_remake6b"
+            android:layout_weight=".400"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:onClick="remakeButton"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/remake"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button_main_menu6b"
+            android:layout_weight=".400"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:onClick="main_menuButton"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/main_menu"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

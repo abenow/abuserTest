@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/icon_vk" android:state_checked="false" android:state_pressed="false"/>
+    <item android:drawable="@drawable/vk_share_button_on" android:state_checked="true" android:state_pressed="false"/>
+    <item android:drawable="@drawable/vk_share_button_on" android:state_checked="false" android:state_pressed="true"/>
+</selector>
+    <!--    @drawable/telegramm_icon-->
